@@ -137,6 +137,53 @@ searchEmoji();
 
 ---
 
+## 🛠️ Framework Integration (Multi-Platform)
+
+You can easily integrate FluentUI Emojis across your web and mobile applications using our dedicated client libraries.
+
+### 1. Plain HTML / JavaScript
+Use the native Web Component to add premium emojis anywhere in your HTML.
+
+```html
+<!-- Load the library -->
+<script src="https://dev.dubhub.lk/script/fluentui-emojis.js"></script>
+
+<!-- Use the custom tag -->
+<fluent-emoji glyph="🚀" style="3D"></fluent-emoji>
+<fluent-emoji glyph="🍏" style="Color"></fluent-emoji>
+```
+
+### 2. React / Next.js
+Install the NPM package and use the built-in React component.
+
+```jsx
+import { FluentEmoji } from 'fluentui-emojis';
+
+export default function App() {
+  return (
+    <div>
+      Welcome! <FluentEmoji glyph="🚀" style="3D" />
+    </div>
+  );
+}
+```
+
+### 3. Flutter (Mobile & Desktop)
+Add the dependency to your `pubspec.yaml` and use the custom `FluentEmoji` widget.
+
+```dart
+import 'package:fluent_emojis/widgets/fluent_emoji.dart';
+
+// Display a premium 3D icon
+FluentEmoji(
+  glyph: '🚀',
+  style: '3D',
+  size: 32.0,
+);
+```
+
+---
+
 ## ❤️ Credits & Attribution
 
 - **Original Assets**: [FluentUI Emoji](https://github.com/microsoft/fluentui-emoji) by [Microsoft](https://github.com/microsoft/).
